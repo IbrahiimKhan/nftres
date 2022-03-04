@@ -320,7 +320,11 @@ p.ethi {
 
 
 
-@media (max-width: 1399.98px) {  }
+@media (max-width: 1399.98px) { 
+  .projectCard__wrapper1{
+    margin: 0;
+  }
+ }
 
 @media (max-width: 1199.98px) {
 
@@ -343,6 +347,9 @@ p.ethi {
   }
   .searchBar{
     margin-bottom: 1rem;
+  }
+  .col-md-6.user_2{
+    width: 100%;
   }
  }
 
@@ -375,6 +382,16 @@ p.ethi {
 }
   }
 
-  @media (max-width: 575.98px) {  }
+  @media (max-width: 575.98px) { 
+    .projects__navbar.d-flex {
+      overflow: scroll;
+  }
+  .projectrCard.col-md-6.col-sm-6.lovely_card_project.col-lg-3{
+    width: 100%;
+  }
+  .search_3 {
+    width: 70%;
+}
+   }
 
 

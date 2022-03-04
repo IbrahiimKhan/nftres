@@ -8,43 +8,43 @@ const Footer = () => {
   return (
     <div>
          <section
-             class="d-flex justify-content-between"
+             className="d-flex justify-content-between"
              
              >
       <div>
-        <a href="" class=" me-4">
-          <i class="fab fa-facebook-f"></i>
+        <a href="" className=" me-4">
+          <i className="fab fa-facebook-f"></i>
         </a>
-        <a href="" class=" me-4">
-          <i class="fab fa-twitter"></i>
+        <a href="" className=" me-4">
+          <i className="fab fa-twitter"></i>
         </a>
-        <a href="" class=" me-4">
-          <i class="fab fa-google"></i>
+        <a href="" className=" me-4">
+          <i className="fab fa-google"></i>
         </a>
-        <a href="" class=" me-4">
-          <i class="fab fa-instagram"></i>
+        <a href="" className=" me-4">
+          <i className="fab fa-instagram"></i>
         </a>
-        <a href="" class=" me-4">
-          <i class="fab fa-linkedin"></i>
+        <a href="" className=" me-4">
+          <i className="fab fa-linkedin"></i>
         </a>
-        <a href="" class=" me-4">
-          <i class="fab fa-github"></i>
+        <a href="" className=" me-4">
+          <i className="fab fa-github"></i>
         </a>
       </div>
 
     </section>
   
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
+    <section className="">
+      <div className="container text-center text-md-start mt-5">
 
-        <div class="row mt-3">
+        <div className="row mt-3">
 
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
            
 
           <Link className="navbar-brand logo" to="/">NFTERS</Link>
             <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
+                className="mb-4 mt-0 d-inline-block mx-auto"
               
                 />
             <p className='py-3'>
@@ -58,71 +58,71 @@ const Footer = () => {
               </div>
           </div>
 
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold">Marketplace</h6>
+          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 className="text-uppercase fw-bold">Marketplace</h6>
             <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
+                className="mb-4 mt-0 d-inline-block mx-auto"
              
                 />
             <p>
-              <a href="#!" class="">All NFTs</a>
+              <a href="#!" className="">All NFTs</a>
             </p>
             <p>
-              <a href="#!" class="">New</a>
+              <a href="#!" className="">New</a>
             </p>
             <p>
-              <a href="#!" class="">Art</a>
+              <a href="#!" className="">Art</a>
             </p>
             <p>
-              <a href="#!" class="">Sports</a>
+              <a href="#!" className="">Sports</a>
             </p>
             <p>
-              <a href="#!" class="">Utility</a>
+              <a href="#!" className="">Utility</a>
             </p>
             <p>
-              <a href="#!" class="">Music</a>
+              <a href="#!" className="">Music</a>
             </p>
             <p>
-              <a href="#!" class="">Domain Name</a>
+              <a href="#!" className="">Domain Name</a>
             </p>
           </div>
 
 
   
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-            <h6 class="text-uppercase fw-bold">My Account</h6>
+            <h6 className="text-uppercase fw-bold">My Account</h6>
             <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
+                className="mb-4 mt-0 d-inline-block mx-auto"
                
                 />
             <p>
-              <a href="#!" class="">Profile</a>
+              <a href="#!" className="">Profile</a>
             </p>
             <p>
-              <a href="#!" class="">Favourite</a>
+              <a href="#!" className="">Favourite</a>
             </p>
             <p>
-              <a href="#!" class="">My Collections</a>
+              <a href="#!" className="">My Collections</a>
             </p>
             <p>
-              <a href="#!" class="">Settings</a>
+              <a href="#!" className="">Settings</a>
             </p>
           </div>
       
 
          
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
   
-            <h6 class="text-uppercase fw-bold">Stay in the loop</h6>
+            <h6 className="text-uppercase fw-bold">Stay in the loop</h6>
             <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
             <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
+                className="mb-4 mt-0 d-inline-block mx-auto"
                
                 />
             <form id="search-form_3">
-                <input type="text" class="search_3"/>
-                <input type="submit" class="submit_3" value="Subscribe" />
+                <input type="text" className="search_3"/>
+                <input type="submit" className="submit_3" value="Subscribe" />
             </form>
           </div>
 
@@ -130,7 +130,7 @@ const Footer = () => {
       </div>
       
       <div
-         class="text-center p-3"
+         className="text-center p-3"
          style={{borderTop:"1px solid rgba(0, 0, 0, 0.09)"}}
         
          >
