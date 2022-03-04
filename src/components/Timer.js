@@ -12,8 +12,10 @@ function Timer() {
   return (
     <div>
       <div className='d-flex justify-content-between align-items-center'>
-       <div className='timeco'> <span>{hours}</span>h <span>{minutes}
-        </span>m <span>{seconds}</span>s <span> left</span></div>
+       <div > <div className='timeco'>
+       <span>{hours}</span>h <span>{minutes}
+        </span>m <span>{seconds}</span>s <span> left</span>
+         </div></div>
         <button className='btn' style={{color:"#5539a8",fontWeight:"500"}}>Place a bid</button>
       </div>
     </div>

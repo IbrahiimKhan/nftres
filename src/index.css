@@ -324,6 +324,12 @@ p.ethi {
   .projectCard__wrapper1{
     margin: 0;
   }
+  .timeco{
+font-size: 12px;
+padding: 0;
+padding: 3px;
+margin: 0;
+  }
  }
 
 @media (max-width: 1199.98px) {
