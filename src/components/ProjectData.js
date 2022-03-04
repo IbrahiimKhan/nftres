@@ -10,9 +10,9 @@ import person4 from "../assets/person4.png"
 
 const data_projects = [
     {
-        name: 'Ecommerce App',
+        name: 'ArtCrypto',
         image: img1,
-        category: ['art', 'celebraties', 'gaming'],
+        category: ['celebraties', 'gaming','crypto'],
         person1:person1,
         person2:person2,
         person3:person2,
@@ -21,9 +21,9 @@ const data_projects = [
     
 
     {
-        name: 'Social Media App',
+        name: 'This NFT',
         image: img2,
-        category: ['art', 'celebraties', 'gaming','sport', ],
+        category: ['art', 'celebraties', 'gaming','sport','music' ],
         person1:person1,
         person2:person2,
         person3:person2,
@@ -31,9 +31,9 @@ const data_projects = [
         
     },
     {
-        name: 'Realtime Chat App',
+        name: 'NameCrypto',
         image: img3,
-        category: ['node', 'socket.io', 'react'],
+        category: ['celebraties',"music", 'gaming','crypto'],
         person1:person1,
         person2:person2,
         person3:person2,
@@ -42,14 +42,18 @@ const data_projects = [
 
 
     {
-        name: 'Weather App',
+        name: 'KingCrypto',
         image: img4,
-        category: ['art', 'gaming'],
+        category: ['art', 'gaming','music'],
         person1:person1,
         person2:person2,
         person3:person2,
         person4:person4
-    }
+    },
+    
+
+
+    
     
 ]
 

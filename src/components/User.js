@@ -41,15 +41,15 @@ const Projects = () => {
            <div className="row">
                <div className="col-10 mx-auto">
                    <div className="row">
-                   <div className="col-md-8 pt-5 pt-lg-0 order-2 order-lg-1">
+                   <div className="col-lg-8 col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
                        <div className="row">
-                           <div className="col-md-6">
+                           <div className="col-md-6 user_1">
                            {
                     projects.map(project =>
                         <ProjectCard key={project.name} project={project} />).splice(0,1,2,3,)
                 } 
                            </div>
-                           <div className="col-md-6">
+                           <div className="col-md-6 user_2">
                            {
                     projects.map(project =>
                         <SideNft key={project.name} project={project} />).splice(1)
@@ -58,9 +58,10 @@ const Projects = () => {
                        </div>
                       
                    </div>
-                   <div className="col-md-4 pt-5 pt-lg-0 order-1 order-lg-2 header_img">
-                   <h2>Top Collection Over</h2>
-        <p style={{fontWeight:"bold",color:"3d00b7"}} className="my-2">Last 7 days</p>
+                   <div className="col-lg-4 col-md-6 pt-5 pt-lg-0 order-1 order-lg-2 header_img">
+                       <div className='txt'>  <h2>Top Collection Over</h2>
+        <p style={{fontWeight:"bold",color:"#3d00b7"}} className="my-2">Last 7 days</p></div>
+                 
                   <Collection/>
                    </div>
                    </div>

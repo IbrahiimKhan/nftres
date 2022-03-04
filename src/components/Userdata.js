@@ -6,7 +6,7 @@ import person1 from "../assets/person1.png"
 
 const data_projects = [
     {
-        name: 'Ecommerce App',
+        name: 'The Futr Abstr',
         image: img1,
         category: ['art', 'celebraties', 'gaming'],
         person1:person1,
@@ -16,7 +16,7 @@ const data_projects = [
     
 
     {
-        name: 'Social Media App',
+        name: 'The Futr Abstr',
         image: img2,
         category: ['art', 'celebraties', 'gaming','sport', ],
         person1:person1,
@@ -25,7 +25,7 @@ const data_projects = [
         
     },
     {
-        name: 'Realtime Chat App',
+        name: 'The Futr Abstr',
         image: img3,
         category: ['node', 'socket.io', 'react'],
         person1:person1,
@@ -35,7 +35,7 @@ const data_projects = [
 
 
     {
-        name: 'Weather App',
+        name: 'The Futr Abstr',
         image: img4,
         category: ['art', 'gaming'],
         person1:person1,

@@ -10,11 +10,11 @@ const Header = () => {
        <div className="container-fluid nav_bg">
            <div className="row">
                <div className="col-10 mx-auto">
-                   <div className="row">
+                   <div className="row d-flex justify-content-center align-items-center">
                    <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
                        <h1 className='hero-header my-2'>discover,and collect digital art nfts</h1>
                        <p className='hero-p'>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
-                       <button className='btn1 btn mt-3'>Explore Now</button>
+                       <button className='btn1 btn my-3 mt-4'>Explore Now</button>
                        <div className="count_div pt-3">
                            <div className="div1 d-flex">
                                <div className='counter'>

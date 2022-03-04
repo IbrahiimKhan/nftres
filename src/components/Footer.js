@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
          <section
-             class="d-flex justify-content-between p-4"
+             class="d-flex justify-content-between"
              
              >
       <div>
@@ -47,14 +47,14 @@ const Footer = () => {
                 class="mb-4 mt-0 d-inline-block mx-auto"
               
                 />
-            <p>
+            <p className='py-3'>
              The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs).
              buy,sell, and discover exclusive digital items.
             </p>
             <div>
-                 <a href=""> <img className='img-fluid' src={facebook} alt="" /></a>
-                  <a href=""><img className='img-fluid' src={twitter} alt="" /></a>
-                  <a href=""><img className='img-fluid' src={linkedin} alt="" /></a>
+                 <a href=""> <img style={{marginRight:"10px"}} className='img-fluid' src={facebook} alt="" /></a>
+                  <a href=""><img style={{marginRight:"10px"}} className='img-fluid' src={twitter} alt="" /></a>
+                  <a href=""><img style={{marginRight:"10px"}} className='img-fluid' src={linkedin} alt="" /></a>
               </div>
           </div>
 
@@ -122,14 +122,16 @@ const Footer = () => {
                 />
             <form id="search-form_3">
                 <input type="text" class="search_3"/>
-                <input type="submit" class="submit_3" value="Subscribe Now" />
+                <input type="submit" class="submit_3" value="Subscribe" />
             </form>
           </div>
 
         </div>
       </div>
+      
       <div
          class="text-center p-3"
+         style={{borderTop:"1px solid rgba(0, 0, 0, 0.09)"}}
         
          >
       <a 

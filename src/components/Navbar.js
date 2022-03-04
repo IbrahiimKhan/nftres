@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-    <div className="contianer-fluid nav_bg">
+    <div className="contianer-fluid nav_bg-1 py-2">
         <div className="row">
             <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light mt-3 ">
@@ -14,12 +14,15 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 ml-3">
         <li className="nav-item">
           <Link className="nav-link" to="#">Marketplace</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">Recsource</Link>
+          <Link className="nav-link" to="#">Resource</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="#">About</Link>
         </li>
 
       </ul>
@@ -36,7 +39,7 @@ const Navbar = () => {
       </form>
       
         <div className="nav-btn-grp">
-            <button className='btn btn1'>upload</button>
+            <button className='btn btn1 nav-btn-1'>upload</button>
             <button className='btn btn1 btn2'>Connect Wallet</button>
         </div>
 

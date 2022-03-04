@@ -5,16 +5,16 @@ import chart from "../assets/chart.png"
 const Amazing = () => {
   return (
     <>
-    <section id="header" className='py-5'>
+    <section id="amazing" className='py-5'>
        <div className="container-fluid nav_bg">
            <div className="row">
-               <div className="col-10 mx-auto">
-                   <div className="row">
-                   <div className="col-md-4 pt-5 pt-lg-0 order-2 order-lg-1">
+               <div className="col-10 mx-auto ">
+                   <div className="row d-flex justify-content-center">
+                   <div className="col-md-4 pt-5 pt-lg-0  order-lg-1">
                        
-                        <h1 className="amazing">the amazing nft art of the world here</h1>
+                        <h2 className="amazing">the amazing nft art of the world here</h2>
                    </div>
-                   <div className="col-md-8 pt-5 pt-lg-0 order-1 d-flex order-lg-2 header_img">
+                   <div className="col-md-8 pt-5 pt-lg-0  d-flex order-lg-2 header_img">
                      <div>
                          <div className='d-flex'>
                              <div className="icon">

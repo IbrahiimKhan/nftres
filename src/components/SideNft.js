@@ -1,7 +1,5 @@
 import React from 'react';
-import { useTime } from 'react-timer-hook';
 import eth from '../assets/eth.png'
-import Timer from './Timer';
 
 const SideNft = ({ project: { name, image,person1,stock} }) => {
     return (
@@ -26,8 +24,8 @@ const SideNft = ({ project: { name, image,person1,stock} }) => {
            
                    <img className='img-fluid' src= {person1} alt="" />
                    <div className='d-flex  align-items-center justify-content-center'>
-         <div className='d-flex align-items-center green-round'>  <img src={eth} alt="" className='img-fluid' />
-         <p className='{}'>0.25 ETH</p>
+         <div className='d-flex align-items-center green-round'>  <img src={eth} alt="ddd" className='img-fluid' />
+         <p className='ethi'>0.25 ETH</p>
         
          </div>    
          <p>1 of {stock}</p> 

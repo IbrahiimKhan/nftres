@@ -10,36 +10,36 @@ import eth from "../assets/eth.png"
 const data_projects = [
     {
         number:1,
-        name: 'Ecommerce App',
+        name: 'cryptoFunks',
         image: col1,
         amount:"19,769.39",
         percentage: "+26.52%"
     },
     {
         number:2,
-        name: 'Ecommerce App',
-        image: col1,
+        name: 'Cryptix',
+        image: col2,
         amount:"19,769.39",
         percentage: "+26.52%"
     },
     {
         number:3,
-        name: 'Ecommerce App',
-        image: col1,
+        name: 'Frensware',
+        image: col3,
         amount:"19,769.39",
         percentage: "+26.52%"
     },
     {
         number:4,
-        name: 'Ecommerce App',
-        image: col1,
+        name: 'PunkArt',
+        image: col4,
         amount:"19,769.39",
         percentage: "+26.52%"
     },
     {
         number:5,
-        name: 'Ecommerce App',
-        image: col1,
+        name: 'Art Crypto',
+        image: col5,
         amount:"19,769.39",
         percentage: "+26.52%"
     },
